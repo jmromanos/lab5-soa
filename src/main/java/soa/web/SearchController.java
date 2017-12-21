@@ -27,9 +27,13 @@ public class SearchController {
     }
 
 
-    @RequestMapping(value="/search")
+    @RequestMapping("/search")
     @ResponseBody
-    public Object search(@RequestParam("q") String q) {
+    public Object multiSearch(@RequestParam("q") String q) {
+        return producerTemplate.requestBody("direct:search",q);
+    }
+
+    /*public Object search(String q) {
         Map<String, Object> header = new HashMap<>();
         if (q.contains("max:")) {
             String n = q.substring(q.lastIndexOf("max:")+4);
@@ -39,5 +43,5 @@ public class SearchController {
             header.put("CamelTwitterKeywords",q);
         }
         return producerTemplate.requestBodyAndHeaders("direct:search", "",header);
-    }
+    }*/
 }
