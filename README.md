@@ -12,4 +12,4 @@ NIA    | User name | Repo | Improvement | Score
 568051 | Sergio Andrés Muniesa | https://github.com/sandresmuniesa/lab5-soa/tree/test | |
 699328 | Xian Pan |https://github.com/DreamaerD/lab5-soa/tree/test | | 
 652062 | Pedro Fortón Rubio | https://github.com/Concatenacion/lab5-soa/tree/test | |
-702089 |Jorge Martínez Romanos|https://github.com/jmromanos/lab5-soa/tree/test | Proposal: Add multisearch | 
+702089 |Jorge Martínez Romanos|https://github.com/jmromanos/lab5-soa/tree/test | Proposal: Add multisearch: https://github.com/jmromanos/lab5-soa/tree/split | 
