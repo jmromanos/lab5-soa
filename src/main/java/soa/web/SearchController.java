@@ -30,7 +30,10 @@ public class SearchController {
     @RequestMapping("/search")
     @ResponseBody
     public Object multiSearch(@RequestParam("q") String q) {
-        return producerTemplate.requestBody("direct:search",q);
+         producerTemplate.setDefaultEndpointUri("direct:search");
+         Object a = producerTemplate.requestBodyAndHeader(q, "test","test");
+         log.info(a.toString());
+         return a;
     }
 
     /*public Object search(String q) {
