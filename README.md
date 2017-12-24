@@ -12,3 +12,4 @@ NIA    | User name | Repo | Improvement | Score
 568051 | Sergio Andrés Muniesa | https://github.com/sandresmuniesa/lab5-soa/tree/test | |
 699328 | Xian Pan |https://github.com/DreamaerD/lab5-soa/tree/test | | 
 652062 | Pedro Fortón Rubio | https://github.com/Concatenacion/lab5-soa/tree/test | |
+656531 | Enrique Palacín Solano | https://github.com/kikcillo/lab5-soa/tree/test | |
